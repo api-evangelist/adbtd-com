@@ -66,7 +66,7 @@
 
 adbtd provides email infrastructure as a service, offering dedicated SMTP and IMAP servers, dedicated IP addresses, and full deliverability tools. It targets resellers and businesses needing white‑label email sending without exposing the underlying provider infrastructure. The platform includes a web dashboard, API, webhooks, and pricing plans starting at $20.99 per month, with features like domain‑level DKIM signing, bounce handling, and real‑time analytics.
 
-**Areas:** Email Infrastructure · SMTP · IMAP · Dedicated IP · Deliverability · API · Webhooks · MCP
+**Areas:** Email Infrastructure · SMTP · IMAP · Dedicated IP · Deliverability · Webhook · MCP
 
 ## adbtd on APIs.io
 
@@ -79,6 +79,12 @@ Everything profiled for adbtd is published on APIs.io rather than in this reposi
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [adbtd-com-mcp.yml](https://apis.io/servers/adbtd-com/adbtd-com-mcp-yml/)
 
 #### JSON Schema (6)
 
@@ -107,15 +113,15 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adbtd Com Authentication](https://apis.io/security/adbtd-com/adbtd-com-authentication/)
-- [Adbtd Com Domain Security](https://apis.io/security/adbtd-com/adbtd-com-domain-security/)
-- [Adbtd Com Vulnerability Disclosure](https://apis.io/security/adbtd-com/adbtd-com-vulnerability-disclosure/)
+- [adbtd Authentication](https://apis.io/security/adbtd-com/adbtd-com-authentication/)
+- [adbtd Domain Security](https://apis.io/security/adbtd-com/adbtd-com-domain-security/)
+- [adbtd Vulnerability Disclosure](https://apis.io/security/adbtd-com/adbtd-com-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Adbtd Com Plans Pricing](https://apis.io/plans/adbtd-com/adbtd-com-plans-pricing/)
+- [adbtd Plans Pricing](https://apis.io/plans/adbtd-com/adbtd-com-plans-pricing/)
 
 ## Where to find this API
 
@@ -133,25 +139,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 56.3** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 44.6** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
-| Contract quality | 52.8 |
-| Contract governance | 70.9 |
-| Operational transparency | 18.4 |
+| Discoverability | 75.0 |
+| Contract quality | 24.4 |
+| Contract governance | 19.7 |
+| Operational transparency | 16.7 |
 | Developer ergonomics | 57.1 |
-| Access clarity | 63.7 |
+| Access clarity | 63.8 |
 
-**Agent readiness 37.6** — agent-ready
+**Agent readiness 33.9** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
@@ -169,6 +175,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
 
